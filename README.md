@@ -10,8 +10,6 @@ Intelligent Content Analysis: Utilizes GPT-4 to analyze chat messages for releva
 
 Personalized Ad Delivery: Sends targeted video links directly to users who express interest or need in specific financial services.
 
-Command-Based Interaction: Supports the !ask command, allowing users to ask questions and receive AI-generated responses.
-
 Multi-Platform Compatibility: Easily adaptable to various live chat platforms beyond Twitch.
 
 # How It Works
@@ -23,7 +21,7 @@ FAQ Similarity Check: When a message is detected, the bot checks if it's similar
 # Engagement:
 
 If a message is similar to an FAQ, the bot responds by sending a targeted YouTube video link to the user.
-If a user uses the !ask command followed by a question, the bot provides an AI-generated response using GPT-4.
+
 Customization: The list of FAQs and the video link can be customized to fit different marketing goals.
 
 # Code Overview
@@ -54,27 +52,6 @@ Customization: The list of FAQs and the video link can be customized to fit diff
     
       def is_similar_to_faq(message):
           # GPT-4 API call to check similarity
-
-  # GPT-4 Response Function: Generates a response for the !ask command.
-
-      def get_gpt4_response(prompt):
-          # GPT-4 API call to generate a response
-
-  # Bot Class: Inherits from commands.Bot in TwitchIO.
-
-      event_ready: Prints a login confirmation.
-      event_message: Handles incoming messages, checks for FAQ similarity, and processes the !ask command.
-      class Bot(commands.Bot):
-          async def event_ready(self):
-              # Code when the bot is ready
-      
-          async def event_message(self, message):
-              # Code to handle incoming messages
-
-  # Bot Execution: Initializes and runs the bot.
-
-      bot = Bot()
-      bot.run()
     
 # Setup Instructions
 
@@ -93,6 +70,7 @@ Customization: The list of FAQs and the video link can be customized to fit diff
     python bot.py
 
 # Usage
+
 Automatic Response: The bot will automatically monitor chat messages. If a message is similar to any of the FAQs, it will send the predefined video link.
 
 # Future Enhancements
