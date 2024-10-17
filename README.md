@@ -5,9 +5,13 @@ A Python-based bot designed for targeted advertising on social media live chat p
 # Features
 
 Real-Time Chat Monitoring: Connects to live chat channels and tracks user messages as they occur.
+
 Intelligent Content Analysis: Utilizes GPT-4 to analyze chat messages for relevance to predefined frequently asked questions (FAQs) about credit repair and financial topics.
+
 Personalized Ad Delivery: Sends targeted video links directly to users who express interest or need in specific financial services.
+
 Command-Based Interaction: Supports the !ask command, allowing users to ask questions and receive AI-generated responses.
+
 Multi-Platform Compatibility: Easily adaptable to various live chat platforms beyond Twitch.
 
 # How It Works
