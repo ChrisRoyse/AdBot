@@ -70,12 +70,6 @@ class Bot(commands.Bot):
             await message.channel.send(video_link)
             return
 
-        # Process !ask command with GPT-4
-        if message.content.startswith('!ask'):
-            prompt = message.content[5:]  # Remove the command part
-            response = get_gpt4_response(prompt)
-            await message.channel.send(response)
-
 # Run the bot
 bot = Bot()
 bot.run()
