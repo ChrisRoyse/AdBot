@@ -33,7 +33,7 @@ Twitch FAQ Bot is a Python-based chatbot designed to enhance your Twitch channel
 
 ![Twitch FAQ Bot Demo](https://www.example.com/demo-screenshot.png)
 
-*Watch the bot in action on our [YouTube Channel](https://www.youtube.com/watch?v=LKRkqZsGvGM&ab_channel=TheNumberOneLLC).*
+*Watch the bot in action on our [YouTube Channel]([https://www.youtube.com/watch?v=LKRkqZsGvGM&ab_channel=TheNumberOneLLC](https://www.youtube.com/watch?v=IfZ6pAqtXSw).*
 
 ## Prerequisites
 
