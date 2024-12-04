@@ -19,7 +19,7 @@
 
 ## Overview
 
-Twitch FAQ Bot is a Python-based chatbot designed to enhance your Twitch channel's interactivity by automatically responding to frequently asked questions (FAQs) using OpenAI's GPT-4. When a viewer asks a question similar to predefined FAQs, the bot responds with a relevant YouTube video link, providing quick and consistent answers without interrupting your stream.
+Twitch FAQ Bot is a Python-based chatbot designed to enhance your Twitch channel's interactivity by automatically responding to frequently asked questions (FAQs) using OpenAI's GPT-4. When a viewer asks a question similar to predefined FAQs, the bot responds with a relevant YouTube video link(advertisement), providing quick and consistent answers without interrupting your stream.
 
 ## Features
 
